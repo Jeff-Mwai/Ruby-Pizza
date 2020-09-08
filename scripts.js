@@ -11,8 +11,6 @@ $(document).ready(function () {
         var userInput = new Order(flavor(), size(), crust(), toppings(), number());
         console.log(userInput);
         var totalCost = userInput.totoalcost();
-        alert(totalCost);
-        console.log(totalCost);
 
         $('#typeOfPizza').text(flavorType);
         $('#typeOfSize').text(flavorsize);
