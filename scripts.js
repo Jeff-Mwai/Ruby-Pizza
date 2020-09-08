@@ -74,18 +74,7 @@ $(document).ready(function () {
         }
 
     }
-    function crust() {
-        var preferredCrust = document.getElementById('crust').value;
-        if (preferredCrust === 'Crispy') {
-            return 170
-        }
-        else if (preferredCrust === 'Stuffed') {
-            return 210
-        }
-        else if (preferredCrust === 'Glutten Free') {
-            return 300
-        }
-    }
+    
     function toppings() {
         return 100
     }
