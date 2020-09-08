@@ -61,7 +61,19 @@ $(document).ready(function () {
 
     }
 
-    
+    function size() {
+        var pizzaSize = document.getElementById('size').value;
+        if (pizzaSize === 'Small') {
+            return 350
+        }
+        else if (pizzaSize === 'Regular') {
+            return 750
+        }
+        else if (pizzaSize === 'Large') {
+            return 1000
+        }
+
+    }
     function crust() {
         var preferredCrust = document.getElementById('crust').value;
         if (preferredCrust === 'Crispy') {
