@@ -1,6 +1,4 @@
 # Ruby-Pizza
-
-# {Application Name}
 #### Ruby Pizza is a platform that helps customers to purchase their preferred type of pizzas with options of pick-up and delivery., September 2020
 #### By **Jeffrey Mwai**
 ## Description
